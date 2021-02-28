@@ -1,4 +1,4 @@
-package Conexion;
+package com.co.sofka.app.Conexion;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -10,9 +10,7 @@ public class Conexion {
         Connection connection = null;
         try {
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/Audaz", "root", "");
-            if (connection != null){
-                System.out.println("Conexion Exitosa");
-            }
+
         }catch (SQLException e){
             System.out.println(e);
 

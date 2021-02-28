@@ -1,6 +1,6 @@
-package Main;
+package com.co.sofka.app.Main;
 
-import Conexion.Conexion;
+import com.co.sofka.app.Conexion.Conexion;
 
 import java.sql.Connection;
 
